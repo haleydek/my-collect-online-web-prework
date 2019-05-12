@@ -8,8 +8,9 @@ def my_collect(array)
       i += 1
     end
     
+    element
+    
     new_array << element
-    new_array
     
   else
     "No block was given."
