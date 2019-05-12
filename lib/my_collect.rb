@@ -5,11 +5,11 @@ def my_collect(array)
     
     while i < array.length
       yield array[i]
+      new_array << array[i]
       i += 1
-      new_array << yield array[i]
     end
     
-    new_array << element
+    new_array
     
   else
     "No block was given."
