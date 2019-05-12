@@ -8,8 +8,6 @@ def my_collect(array)
       i += 1
     end
     
-    new_array << array[i]
-    
     new_array
     
   else
