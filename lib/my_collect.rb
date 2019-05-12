@@ -3,12 +3,16 @@ def my_collect(array)
     i = 0
     
     while i < array.length
+      new_array = []
       yield array[i]
       i += 1
+      new_array << i
     end
     
+    new_array
     
-  
-  |languages| languages.capitalize
+  else
+    "No block was given."
+  end
 end
 
