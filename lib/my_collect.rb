@@ -5,9 +5,9 @@ def my_collect(array)
     
     while i < array.length
       yield array[i]
-      new_array(array) do |array[i]|
-        array[i]
-        new_array << array [i]
+      new_array(array) do |element|
+        element
+        new_array << element
       end
       i += 1
     end
