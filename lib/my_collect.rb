@@ -9,6 +9,7 @@ def my_collect(array)
     end
     
     new_array << element
+    new_array
     
   else
     "No block was given."
