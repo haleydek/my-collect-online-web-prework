@@ -4,12 +4,11 @@ def my_collect(array)
     new_array = []
     
     while i < array.length
-      yield array[i]
+      yield array[i, element]
       i += 1
-      new_array << i
     end
     
-    new_array
+    new_array << i
     
   else
     "No block was given."
