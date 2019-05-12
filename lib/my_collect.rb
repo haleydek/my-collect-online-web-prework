@@ -5,7 +5,6 @@ def my_collect(array)
     
     while i < array.length
       yield array[i]
-      element = array[i]
       new_array(array) do |element|
         new_array << element
       end
